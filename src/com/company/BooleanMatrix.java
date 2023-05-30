@@ -20,7 +20,7 @@ public class BooleanMatrix {
            for(int j=0;j<columns;j++){
                if(matrix[i][j]==1){
                    count=1;
-
+               break;
                }
            }
            //loop for set columns
